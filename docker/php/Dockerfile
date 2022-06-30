@@ -48,5 +48,3 @@ RUN apt-get clean && \
     rm /var/log/lastlog /var/log/faillog
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
-
-RUN composer install --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts --no-dev --optimize-autoloader
