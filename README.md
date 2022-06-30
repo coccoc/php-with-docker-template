@@ -5,7 +5,7 @@
 Copy the `.env` file
 
 ```
-cp env.example .env
+cp .env.example .env
 ```
 
 Build docker image
