@@ -31,5 +31,5 @@ docker-compose exec composer install
 Stop docker
 
 ```
-docker-compose down
+docker-compose stop
 ```

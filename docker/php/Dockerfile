@@ -41,7 +41,7 @@ RUN groupmod -o -g ${PGID} www-data && \
 
 COPY --chown=www-data:www-data . /var/www
 
-WORKDIR /var/www
+WORKDIR /var/www/app
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \

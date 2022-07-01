@@ -15,8 +15,6 @@ services:
       - default
   app:
     build:
-      args:
-        BUILD_ENV: local
       context: .
       dockerfile: ./docker/php/Dockerfile
     container_name: php_course_app
